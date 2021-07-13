@@ -1,0 +1,6 @@
+1:python
+2:Django(CRUD)
+3:Bootstrap
+4:html
+
+aa
