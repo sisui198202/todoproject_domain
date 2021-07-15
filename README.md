@@ -68,7 +68,7 @@ CRUD機能のtodoアプリ(独自ドメインで接続)
 
 - Bootstrap
 
-- vultr(サーバー)
+- vultr
 
 - DNS
 
