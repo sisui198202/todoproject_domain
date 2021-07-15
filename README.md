@@ -1,51 +1,54 @@
 # Todoアプリ
 
-CRUD機能のtodoアプリ(IPアドレスで接続)
+CRUD機能のtodoアプリ(独自ドメインで接続)
 # 使い方
 
-## [Web接続]
+## 新しいTodoを作成
 
-1. vultrに接続し、スナップショットからインスタンスを作成、https://my.vultr.com/
+1. トップページの左上にある新規作成ボタンをクリック
+
+2. 入力・選択項目(4つ)
+
+	1. Title
+
+	2. Memo
+
+	3. Priority(優先度)
+		1. high
+		2. normal
+		3. low
+
+	4. Duedate(期限)
+
+3. createボタンをクリック
+
+## 作成したTodoを編集
+
+各Todoリストにある、「編集画面へ」を選択
 
 
-2. トップページに接続 or 管理ユーザーとして接続
-	- http://<独自ドメイン>/list
-	- ex) http://45.77.22.104/list
+## 作成したTodoを削除
 
-	- http://<独自ドメイン>/admin
-	- ex) http://45.77.22.104/admin
+各Todoリストにある、「削除画面へ」を選択
 
+## 作成したTodoの詳細内容を見る
 
-(注)
-スナップショットからインスタンス作成でIPアドレスが変更になる
-
-
-
-## [ローカル接続]
-
-1. カレントディレクトリに移動
-
-
-	`cd /Users/user/Dropbox/iCollections/Folder2/PF/django/todoproject1`
-
-	`python manage.py runserver`
-
-2. http://<IPアドレス>:<ポート番号>/が表示されるのでコピーし、ブラウザーに接続
+各Todoリストにある、「詳細画面へ」を選択
 
 ---------------------
 # URL
 
-- 管理画面:	http://<独自ドメイン>/admin
+- トップページ:		http://portfolio7716.work
 
-- トップページ:	http://<独自ドメイン>/list
+- 管理画面:            http://portfolio7716.work/admin
 
-- 新規作成: http://<独自ドメイン>/create
+- 新規作成:            http://portfolio7716.work/create
 
-- 詳細画面: http://<独自ドメイン>/detail/<id番号>
+- 詳細画面:            http://portfolio7716.work/detail/<id番号>
 
-- 削除: http://<独自ドメイン>/delete/<id番号>
+- 削除:               http://portfolio7716.work/delete/<id番号>
 
-- 編集画面: http://<独自ドメイン>/update/<id番号>
+- 編集画面:            http://portfolio7716.work/update/<id番号>
 
 # 使用技術・サーバー
 
@@ -71,9 +74,14 @@ CRUD機能のtodoアプリ(IPアドレスで接続)
 
 # 機能一覧
 
-- 新しいtodoリストを作成
+- 新しいtodoリスト作成
 
-- 作成したtodoリストの中身を読込表示
+	- Title
+	- Memo
+	- Priority(優先度3つ)
+	- Duedate(期限)
+
+- 作成したtodoリストの詳細表示
 
 - 作成したtodoリストを更新
 
