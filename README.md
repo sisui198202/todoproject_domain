@@ -1,6 +1,6 @@
 # Todoアプリ
 
-CRUD機能のtodoアプリ(独自ドメインで接続)
+CRUD機能のtodoアプリ(独自ドメイン または IPアドレスで接続)
 # 使い方
 
 ## 新しいTodoを作成
@@ -36,7 +36,7 @@ CRUD機能のtodoアプリ(独自ドメインで接続)
 各Todoリストにある、「詳細画面へ」を選択
 
 ---------------------
-# URL
+# URL(独自ドメイン)
 
 - トップページ:		http://portfolio7716.work
 
@@ -49,6 +49,24 @@ CRUD機能のtodoアプリ(独自ドメインで接続)
 - 削除:               http://portfolio7716.work/delete/<id番号>
 
 - 編集画面:            http://portfolio7716.work/update/<id番号>
+
+
+# URL(IPアドレス)
+
+- トップページ:		http://<IPアドレス>/
+
+- 管理画面:	       http://<IPアドレス>/admin
+
+- 新規作成:	       http://<IPアドレス>/create
+
+- 詳細画面:	       http://<IPアドレス>/detail/<id番号>
+
+- 削除:		      http://<IPアドレス>/delete/<id番号>
+
+- 編集画面:	       http://<IPアドレス>/update/<id番号>
+
+
+
 
 # 使用技術・サーバー
 
