@@ -82,7 +82,7 @@ CRUD機能のtodoアプリ(独自ドメイン または IPアドレスで接続)
 
 - Git
 
-- html/CSS
+- HTML/CSS
 
 - Bootstrap
 
